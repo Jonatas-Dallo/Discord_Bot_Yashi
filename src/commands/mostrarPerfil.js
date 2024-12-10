@@ -17,8 +17,18 @@ export const mostrarPerfil = async (interaction, personagens) => {
         .setTitle(personagem.nome)
         .addFields(
             { name: 'Nome', value: personagem.nome || 'Não definido', inline: true },
-            { name: 'Idade', value: personagem.idade || 'Não definido', inline: true }
-            // Adicione mais campos conforme necessário
+            { name: 'Idade', value: personagem.idade || 'Não definido', inline: true },
+            { name: 'Imagem URL', value: personagem.URL || 'Não definido', inline: true },
+            { name: 'Aniversário', value: personagem.aniversario || 'Não definido', inline: true },
+            { name: 'Raça', value: personagem.raca || 'Não definido', inline: true },
+            { name: 'Gênero', value: personagem.genero || 'Não definido', inline: true },
+            { name: 'Pronomes', value: personagem.pronomes || 'Não definido', inline: true },
+            { name: 'Título', value: personagem.titulo || 'Não definido', inline: true },
+            { name: 'Cor do Embed', value: personagem.corEmbed || 'Não definido', inline: true },
+            { name: 'Criado em', value: personagem.criadoEm || 'Não definido', inline: true },
+            { name: 'Última Postagem em', value: personagem.ultimaPostagem || 'Não definido', inline: true },
+            { name: 'ID do Autor', value: personagem.autorId || 'Não definido', inline: true },
+            { name: 'Historia', value: personagem.historia || 'Não definido', inline: true }
         );
 
     const row = new ActionRowBuilder().addComponents(
