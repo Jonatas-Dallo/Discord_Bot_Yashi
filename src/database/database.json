@@ -1,0 +1,29 @@
+{
+    "personagens": [
+        [
+            "402432338497110032",
+            [
+                {
+                    "nome": "banguela",
+                    "URL": "https://i.ytimg.com/vi/q4JQz2z2-mc/maxresdefault.jpg",
+                    "aparencia": "wdawad",
+                    "personalidade": "wadaw",
+                    "historia": "awdaw"
+                },
+                {
+                    "nome": "teste",
+                    "URL": "awdawd",
+                    "aparencia": "awdawdaw",
+                    "personalidade": "teste5",
+                    "historia": "awdawda",
+                    "idade": "teste2",
+                    "raca": "teste3",
+                    "genero": "teste4"
+                }
+            ]
+        ]
+    ],
+    "personagensAtuais": {
+        "402432338497110032": "banguela"
+    }
+}

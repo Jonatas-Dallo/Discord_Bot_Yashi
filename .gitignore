@@ -1,0 +1,89 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnp.js
+.pnp.cjs
+.DS_Store
+
+# React
+build/
+dist/
+*.log
+*.lock
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+env/
+*.egg-info/
+.eggs/
+*.bak
+*.swp
+
+# Flask (Specific to Flask projects)
+instance/
+.webassets-cache
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.db
+
+# Ruby
+*.gem
+*.rbc
+.bundle/
+log/
+tmp/
+*.swp
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# JetBrains IDEs (e.g., IntelliJ IDEA, PyCharm)
+.idea/
+*.iml
+*.iws
+
+# VS Code
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.csettings/
+.metadata/
+
+# Android Studio
+.gradle/
+.idea/
+local.properties
+*.iml
+build/
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+DerivedData/
+
+# Other
+*.bak
+*.tmp
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+.vscode/
